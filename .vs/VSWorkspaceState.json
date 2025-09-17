@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend",
+    "\\Backend\\WebAPI",
+    "\\Backend\\WebAPI\\bin",
+    "\\Backend\\WebAPI\\Controllers",
+    "\\Backend\\WebAPI\\Properties"
+  ],
+  "SelectedNode": "\\Backend\\WebAPI\\Controllers\\WeatherForecastController.cs",
+  "PreviewInSolutionExplorer": false
+}

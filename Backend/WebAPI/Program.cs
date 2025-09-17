@@ -1,25 +1,30 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Настройка запуска на http://localhost:5000
+builder.WebHost.UseUrls("http://localhost:5000");
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Чтобы Swagger работал всегда, подключаем без условия
+app.UseSwagger();
+app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+// Уберите или закомментируйте эту строку, если хотите работать строго по http
+// app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Перенаправляем корень / на Swagger UI
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger/index.html");
+    return Task.CompletedTask;
+});
 
 app.Run();

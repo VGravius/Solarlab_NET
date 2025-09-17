@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladcrim\\Documents\\GitHub\\Course_NET\\Backend\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\vladcrim\\Documents\\GitHub\\Solarlab_NET\\Backend\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladcrim\\Documents\\GitHub\\Course_NET\\Backend\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\vladcrim\\Documents\\GitHub\\Solarlab_NET\\Backend\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladcrim\\Documents\\GitHub\\Course_NET\\Backend\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\vladcrim\\Documents\\GitHub\\Solarlab_NET\\Backend\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\vladcrim\\Documents\\GitHub\\Course_NET\\Backend\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\vladcrim\\Documents\\GitHub\\Solarlab_NET\\Backend\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\vladcrim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladcrim\\Documents\\GitHub\\Course_NET\\Backend\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\vladcrim\\Documents\\GitHub\\Solarlab_NET\\Backend\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
